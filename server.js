@@ -9,4 +9,6 @@ app.get('/', function(req, res) {
     res.sendFile(path.join(__dirname + '/public/index.html'));
 });
 
-app.listen(8080);
+var server_port = process.env.PORT || 5000;
+console.log(server_port);
+var server = app.listen(server_port);
