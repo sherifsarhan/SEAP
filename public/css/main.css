@@ -38,6 +38,15 @@
  *  02. base style overrides - (_document-setup)
  *
  * ------------------------------------------------------------------- */
+.event-description{
+  width: 66%;
+  display: inline-block;
+}
+.event-minis{
+  width: 33%;
+  display: inline-block;
+  vertical-align: top;
+}
 iframe{
   width: 100%;
  }
@@ -1923,6 +1932,26 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
   span.hero__scroll{
     top: 71%;
     z-index: 10;
+  }
+  .event-description{
+  width: 100%;
+  display: inline-block;
+  }
+  .event-minis{
+    width: 100%;
+    display: inline-block;
+    vertical-align: top;
+  }
+  .flex-row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .flex1{
+    order: 2; 
+  }
+  .flex2{
+    order: 1; 
   }
 }
 
