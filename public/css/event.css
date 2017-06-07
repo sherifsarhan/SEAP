@@ -2,7 +2,8 @@
   width: 32%;
   right: 10.9%;
   position: absolute;
-  top: 12%;
+  top: 0%;
+  margin-top: 72px;
   z-index: 999;
 }
 .event-list {
@@ -148,7 +149,7 @@
     width: 36%;
     right: 7.1%;
     position: absolute;
-    top: 12%;
+    top: 0%;
     z-index: 999;
   }
   .event-list > li > .info > .title{
@@ -160,7 +161,7 @@
     width: 43%;
     right: 0;
     position: absolute;
-    top: 12%;
+    top: 0%;
     z-index: 999;
   }
 }
@@ -170,7 +171,7 @@
     width: 40%;
     right: 0%;
     position: absolute;
-    top: 12%;
+    top: 0%;
     z-index: 999;
   }
 }
@@ -180,7 +181,7 @@
     width: 45%;
     right: -3%;
     position: absolute;
-    top: 12%;
+    top: 0%;
     z-index: 999;
   }
   .event-list > li > .info > .title{
@@ -196,7 +197,7 @@
     width: 41%;
     right: 2%;
     position: absolute;
-    top: 8%;
+    top: 0%;
     z-index: 999;
   }
 }
@@ -206,7 +207,7 @@
     width: 43%;
     right: 0%;
     position: absolute;
-    top: 12%;
+    top: 0%;
     z-index: 999;
   }
 }
@@ -216,7 +217,7 @@
     width: 90%;
     right: 4%;
     position: absolute;
-    top: 10%;
+    top: 0%;
     z-index: 999;
   }
 }
@@ -226,7 +227,7 @@
     width: 90%;
     right: 4%;
     position: absolute;
-    top: 10%;
+    top: 0%;
     z-index: 999;
   }
 }
@@ -236,7 +237,7 @@
     width: 90%;
     right: 4%;
     position: absolute;
-    top: 10%;
+    top: 0%;
     z-index: 999;
   }
 }
@@ -246,7 +247,7 @@
     width: 90%;
     right: 4%;
     position: absolute;
-    top: 10%;
+    top: 0%;
     z-index: 999;
   }
   .event-list > li > .info > .title {
@@ -261,7 +262,7 @@
     width: 90%;
     right: 4%;
     position: absolute;
-    top: 10%;
+    top: 0%;
     z-index: 999;
   }
 }
@@ -271,7 +272,7 @@
     width: 90%;
     right: 4%;
     position: absolute;
-    top: 10%;
+    top: 0%;
     z-index: 999;
   }
 }
@@ -281,7 +282,7 @@
     width: 90%;
     right: 4%;
     position: absolute;
-    top: 10%;
+    top: 0%;
     z-index: 999;
   }
 }
@@ -291,7 +292,7 @@
     width: 90%;
     right: 4%;
     position: absolute;
-    top: 10%;
+    top: 0%;
     z-index: 999;
   }
 }
@@ -301,7 +302,7 @@
     width: 90%;
     right: 4%;
     position: absolute;
-    top: 10%;
+    top: 0%;
     z-index: 999;
   }
 }
@@ -321,7 +322,7 @@
     width: 95%;
     right: 2%;
     position: absolute;
-    top: 11%;
+    top: 0%;
     z-index: 999;
   }
   .event-list > li > .info > .title {
@@ -337,7 +338,7 @@
     width: 98%;
     right: 1%;
     position: absolute;
-    top: 12%;
+    top: 0%;
     z-index: 999;
   }
   .event-list > li > .info > .title {
@@ -355,7 +356,7 @@
     width: 100%;
     right: 0%;
     position: absolute;
-    top: 12%;
+    top: 0%;
     z-index: 999;
   }
   .event-list > li > .info > .title {
@@ -373,7 +374,7 @@
     width: 90%;
     right: 5%;
     position: absolute;
-    top: 10%;
+    top: 0%;
     z-index: 999;
   }
   .event-list > li > .info > .title {
@@ -391,7 +392,7 @@
     width: 90%;
     right: 5%;
     position: absolute;
-    top: 12%;
+    top: 0%;
     z-index: 999;
   }
   .event-list > li > .info > .title {
