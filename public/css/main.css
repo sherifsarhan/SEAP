@@ -38,6 +38,9 @@
  *  02. base style overrides - (_document-setup)
  *
  * ------------------------------------------------------------------- */
+.event-description p{
+  text-align: left;
+}
 .event-description{
   width: 66%;
   display: inline-block;
