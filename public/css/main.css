@@ -2563,6 +2563,11 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
   margin-top: .3rem;
 }
 
+.grouped-members{
+  display: inline-block;
+  padding-left: 5%;
+}
+
 /* owl dots */
 
 #team-slider .owl-nav {
@@ -2641,13 +2646,13 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 
 @media only screen and (max-width: 1024px) {
   #team-slider p {
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
 }
 
 @media only screen and (max-width: 768px) {
   #team-slider p {
-    font-size: 2.1rem;
+    font-size: 2rem;
   }
   #team-slider .team-author img {
     width: 6.6rem;
