@@ -828,8 +828,8 @@ button.button-primary,
 input[type="submit"].button-primary,
 input[type="reset"].button-primary,
 input[type="button"].button-primary {
-  background-color: #044890;
-  border-color: #044890;
+  background-color: rgba(12, 124, 243, 1);
+  border-color: rgba(12, 124, 243, 1);
   color: #FFFFFF;
 }
 
@@ -1173,7 +1173,6 @@ h1.intro-header::before {
 
 #header {
   width: 100%;
-  height: 72px;
   background-color: rgba(17, 17, 17, 0.75);
   position: fixed;
   left: 50%;
@@ -1181,8 +1180,26 @@ h1.intro-header::before {
   -ms-transform: translateX(-50%);
   transform: translateX(-50%);
   z-index: 10001;
+  transition: .7s all;
+  -moz-transition: .7s all;
+  -webkit-transition: .7s all;
+  -o-transition: .7s all;
 }
 
+#header-nav-wrap{
+  transition: .7s all;
+  -moz-transition: .7s all;
+  -webkit-transition: .7s all;
+  -o-transition: .7s all;
+}
+
+.large-nav {
+  height: 72px;
+}
+
+.small-nav{
+  height: 50px;
+}
 
 /* ------------------------------------------------------------------- 
  * header logo - (_site-layout.css) 
@@ -1316,8 +1333,15 @@ h1.intro-header::before {
   font-family: "montserrat-medium", sans-serif;
   font-size: 18px;
   position: absolute;
-  top: 0;
   right: 40px;
+}
+
+.large-wrap{
+  top: 0;
+}
+
+.small-wrap{
+  top: -25%;
 }
 
 #header-nav-wrap .header-main-nav {
@@ -1525,13 +1549,21 @@ h1.intro-header::before {
     z-index: -1;
 }
 
-.home-content-left h3 {
+.home-content-left h3{
   color: rgba(255, 255, 255, 0.8);
   font-size: 1.6rem;
   line-height: 1.5;
   text-transform: uppercase;
   letter-spacing: .2rem;
-  margin-bottom: 2.4rem;
+  margin-bottom: 1.4rem;
+}
+
+.home-content-left h3 span{
+  font-size: 2.2rem;
+}
+
+.home-content-left h3 span a{
+  color:white;
 }
 
 .home-content-left h1 {
@@ -1636,7 +1668,7 @@ h1.intro-header::before {
 .home-social-list li a:hover,
 .home-social-list li a:focus,
 .home-social-list li a:active {
-  color: #44c455;
+  color: #0087cc;
 }
 
 

@@ -1,9 +1,22 @@
 /* ===================================================================
- * Dazzle - Main JS
+ * SEAP - Main JS
  *
  * ------------------------------------------------------------------- */ 
 
 (function($) {
+	// Resize nav bar on scroll
+	// NOTE: Motior performance impact. Might cause lags.
+	$(document).on("scroll", function() {
+
+		if($(document).scrollTop()>400) {
+			$("#header").removeClass("large-nav").addClass("small-nav");
+			$("#header-nav-wrap").removeClass("large-wrap").addClass("small-wrap");
+		} else {
+			$("#header").removeClass("small-nav").addClass("large-nav");
+			$("#header-nav-wrap").removeClass("small-wrap").addClass("large-wrap");
+		}
+	
+	});
 
 	"use strict";
 
@@ -172,7 +185,7 @@
       	offset: 200,
       	duration: 600,
       	easing: 'ease-in-sine',
-      	delay: 300,
+      	delay: 200,
 			once: true,
 			disable: 'mobile'
     	});
