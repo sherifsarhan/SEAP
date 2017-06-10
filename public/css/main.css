@@ -2994,8 +2994,8 @@ footer ul a:visited {
   text-decoration: none;
   border: 0 none;
   display: block;
-  height: 60px;
-  width: 60px;
+  height: 40px;
+  width: 50px;
   line-height: 60px;
   text-align: center;
   background: black;
@@ -3009,8 +3009,9 @@ footer ul a:visited {
 
 #go-top a i,
 #go-top a:visited i {
-  font-size: 18px;
-  line-height: inherit;
+  font-size: 28px;
+  padding-bottom: 50%;
+  /*line-height: inherit;*/
 }
 
 #go-top a:hover,
