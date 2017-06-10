@@ -1,6 +1,6 @@
 /* =================================================================== 
  *
- *  Dazzle v1.0 Main Stylesheet
+ *  SEAP v1.0 Main Stylesheet
  *  04-27-2017
  *  ------------------------------------------------------------------
  *
@@ -2784,6 +2784,18 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 }
 
 
+/* ===================================================================
+ *  15. contact - (_layout.scss)
+ *
+ * ------------------------------------------------------------------- */
+
+#contact{
+  min-height: 386px;
+  background: #ffffff;
+  padding-top: 8rem;
+  overflow: hidden;
+}
+#success_message{ display: none;}
 
 /* ===================================================================
  *  15. footer styles - (_site-layout.scss)
