@@ -1566,6 +1566,10 @@ h1.intro-header::before {
   color:white;
 }
 
+.home-content-left h3 span a:hover{
+  color: rgba(60, 180, 241, 0.85);
+}
+
 .home-content-left h1 {
   font-family: "montserrat-light", sans-serif;
   font-size: 5.2rem;
