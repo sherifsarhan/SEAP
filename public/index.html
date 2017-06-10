@@ -612,29 +612,18 @@
         <div class="row">
             <div class="col-full">
                 <h1 class="intro-header"  data-aos="fade-up">Contact Us</h1>
-                <form>
+                <form method="GET" action="mailto:joinseap@gmail.com">
                     <div>
                         <label for="sampleInput">Your E-mail</label>
-                        <input class="full-width" type="email" placeholder="test@mailbox.com" id="sampleInput">
+                        <input class="full-width" type="email" placeholder="test@mailbox.com" name="cc" id="sampleInput">
                   </div>
                   <div>
-                        <label for="sampleRecipientInput">Reason for contacting</label>
-                        <div class="ss-custom-select">
-                            <select class="full-width" id="sampleRecipientInput">
-                                <option value="Option 1">Questions</option>
-                                <option value="Option 2">Report</option>
-                                <option value="Option 3">Others</option>
-                            </select>
-                        </div>                      
+                        <label for="sampleInput">Subject</label>
+                        <input class="full-width" type="text" placeholder="Reason for contact" name="subject" id="sampleInput">
                   </div>
                    
                     <label for="exampleMessage">Message</label>
-                    <textarea class="full-width" placeholder="Your message" id="exampleMessage"></textarea>
-
-                    <label class="add-bottom">
-                        <input type="checkbox">                     
-                        <span class="label-text">Send a copy to yourself</span>
-                    </label>
+                    <textarea class="full-width" placeholder="Your message" name="body" id="exampleMessage"></textarea>
                    
                     <input class="button-primary" type="submit" value="Submit">
 
