@@ -1193,12 +1193,20 @@ h1.intro-header::before {
   -o-transition: .7s all;
 }
 
-.large-nav {
+.large-nav{
   height: 72px;
 }
 
 .small-nav{
   height: 50px;
+}
+
+a.header-menu-toggle.large-toggle{
+  top: 15px;
+}
+
+a.header-menu-toggle.small-toggle{
+  top: 5px;
 }
 
 /* ------------------------------------------------------------------- 
