@@ -11,14 +11,28 @@
 	});
 
 	// Resize nav bar on scroll
+	// also load membership form
 	// NOTE: Motior performance impact. Might cause lags.
+	var isLoaded = false;
 	$(document).on("scroll", function() {
 
 		if($(document).scrollTop()>400) {
+
+			// Load membership form
+			// if($(document).scrollTop()>1000){
+			// 	if(!isLoaded){
+			// 		console.log("herasdfasdfasdfe");
+		 //            var myFrame = document.getElementById('formFrame');
+   //          		myFrame.src = "https://docs.google.com/forms/d/e/1FAIpQLSfIU5wTUE9jmENemuSuNGBPsdjWo0tsVwdik7To-LNRQD-Wqg/viewform?embedded=true";
+		 //        	isLoaded = true;
+		 //        }
+			// }
+
 			$("#header").removeClass("large-nav").addClass("small-nav");
 			$("#header-nav-wrap").removeClass("large-wrap").addClass("small-wrap");
 			$(".header-menu-toggle").removeClass("large-toggle").addClass("small-toggle");
-		} else {
+		}
+		else {
 			$("#header").removeClass("small-nav").addClass("large-nav");
 			$("#header-nav-wrap").removeClass("small-wrap").addClass("large-wrap");
 			$(".header-menu-toggle").removeClass("small-toggle").addClass("large-toggle");
