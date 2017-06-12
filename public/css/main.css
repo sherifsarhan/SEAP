@@ -1541,7 +1541,7 @@ a.header-menu-toggle.small-toggle{
 }
 
 .home-content-left {
-  padding: 15rem 0 12rem 40px;
+  padding: 15rem 4rem 12rem 40px;
   position: relative;
   width: 60%;
 }
@@ -1595,6 +1595,7 @@ a.header-menu-toggle.small-toggle{
   letter-spacing: -.05rem;
   line-height: 1.669;
   color: white;
+  text-align: justify;
 }
 
 .home-content-left .button.stroke {
@@ -1833,7 +1834,7 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
     vertical-align: bottom;
   }
   .home-content-left {
-    padding: 18rem 0 12rem 40px;
+    padding: 18rem 4 12rem 40px;
   }
   .home-content-left h3 {
     font-size: 1.5rem;
@@ -1868,7 +1869,7 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
   }
   .home-content-left {
     width: 60%;
-    padding: 18rem 6rem 14.6rem 4rem;
+    padding: 18rem 4rem 14.6rem 4rem;
   }
   .home-content-left h3 {
     font-size: 1.5rem;
