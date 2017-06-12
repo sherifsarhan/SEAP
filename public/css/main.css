@@ -2537,10 +2537,6 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
   content: '\201D';
 }
 
-/*#team-slider .team-author {
-  margin-top: 4.2rem;
-}*/
-
 #team-slider .team-author img {
   width: 7.4rem;
   height: 7.4rem;
@@ -2556,7 +2552,7 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
   font-family: "montserrat-semibold", sans-serif;
   font-size: 1.9rem;
   margin-top: .9rem;
-  margin-bottom: 3rem;
+  margin-bottom: 1.5rem;
   color: #B91841;
 }
 
@@ -2646,6 +2642,14 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
   background-color: #022346;
 }
 
+.personal-social-links > a{
+  font-size: 2.5rem;
+  color: rgba(185, 24, 65, 0.69);
+}
+.personal-social-links > a:hover{
+  color: #0087cc;
+}
+
 
 /* ------------------------------------------------------------------- 
  * responsive:
@@ -2660,7 +2664,7 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 
 @media only screen and (max-width: 768px) {
   #team-slider p {
-    font-size: 2rem;
+    font-size: 1.9rem;
   }
   #team-slider .team-author img {
     width: 6.6rem;
