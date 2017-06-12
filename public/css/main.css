@@ -2642,6 +2642,9 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
   background-color: #022346;
 }
 
+.personal-social-links{
+  height: 32px;
+}
 .personal-social-links > a{
   font-size: 2.5rem;
   color: rgba(185, 24, 65, 0.69);

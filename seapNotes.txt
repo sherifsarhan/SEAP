@@ -3,10 +3,6 @@
 -3. move social media right of "Welcome to SEAP"
 -4. get a meetup link
 -5. remove twitter links
-6. 6th/7th page of "Our Team" Title: "Past Team Members" 
-just a list with icons with name
-to the right. and social media icon links right of name.
-7. fix "our team" icons sizing
 -8. delete membership tab
 -9. scroll up button smaller
 -10. Flip "When" and "Where in the Events
@@ -20,14 +16,17 @@ to the right. and social media icon links right of name.
 -16. put physical address
 -17. Make section for contact
 -18. Lower font size for the About Our Team
-
-19. Test for Vertical resizing of window
-
-20. Multiple Events in the Events section.
-
 -How to get involved #2 clickable link to events. "Experience SEAP"
 -fix "Add to Calendar"
 -Address:
-5242 Port Royal Rd.
-Suite#1195
-Springfield, VA
+	5242 Port Royal Rd.
+	Suite#1195
+	Springfield, VA
+
+-6. 6th/7th page of "Our Team" Title: "Past Team Members" 
+just a list with icons with name
+to the right. and social media icon links right of name.
+-7. fix "our team" icons sizing
+19. Test for Vertical resizing of window
+20. Multiple Events in the Events section.
+
