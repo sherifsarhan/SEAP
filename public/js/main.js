@@ -58,7 +58,7 @@
 	/* Preloader 
 	 * -------------------------------------------------- */
 	var ssPreloader = function() {
-
+		
 		$WIN.on('load', function() {	
 
 			// force page scroll position to top at page refresh
@@ -170,7 +170,9 @@
 			$('html, body').stop().animate({
 				'scrollTop': $target.offset().top
 			}, cfg.scrollDuration, 'swing', function () {
-				window.location.hash = target;
+				// This sets the URL hash when
+				// something is clicked
+				// window.location.hash = target;
 			});
 
 	  	});
