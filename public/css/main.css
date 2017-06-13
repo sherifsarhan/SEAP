@@ -2297,7 +2297,7 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 
 #membership {
   background: #ebebeb;
-  padding-top: 15rem;
+  padding-top: 7rem;
   padding-bottom: 12rem;
 }
 
@@ -2486,7 +2486,7 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 
 #team {
   background: #FFFFFF;
-  padding: 15rem 0 9rem;
+  padding: 7rem 0 9rem;
   text-align: center;
   min-height: 600px;
 }
@@ -2706,7 +2706,7 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
  * ------------------------------------------------------------------- */
 #events {
   background: #ebebeb;
-  padding-top: 15rem;
+  padding-top: 7rem;
   padding-bottom: 12rem;
 }
 
