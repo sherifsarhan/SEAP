@@ -1937,7 +1937,7 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
     font-size: 3.6rem;
   }
   span.hero__scroll{
-    top: 70%;
+    top: 72%;
     z-index: 10;
   }
 }
@@ -2018,10 +2018,10 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
   .home-image-right {
     width: 300px;
     margin-bottom: -298px;
-    top: 69%;
+    top: 74%;
   }
   span.hero__scroll{
-    top: 71%;
+    top: 75%;
     z-index: 10;
   }
 }
@@ -2036,10 +2036,10 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
   .home-image-right {
     width: 270px;
     margin-bottom: -298px;
-    top: 70%;
+    top: 75%;
   }
   span.hero__scroll{
-    top: 71%;
+    top: 76%;
     z-index: 10;
   }
 }
