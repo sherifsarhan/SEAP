@@ -2000,23 +2000,27 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
     position: absolute;
     border-radius: 50px;
     width: 70%;
-    left: 25%;
+    left: 16%;
   }
   .home-image-right .title-sponsor{
-  text-align: center;
-  font-size: 1.9rem;
-  top: 2%;
-  bottom: 92%;
-}
+    text-align: center;
+    font-size: 1.9rem;
+    top: 13%;
+    bottom: 82%;
+  }
+
+  .home-image-right .logo img{
+    opacity: .5;
+  }
 
 div.sponsor.first-sponsor{
-  top: 10%;
-  bottom: 84%;
+  top: 20%;
+  bottom: 74%;
 }
 
 div.sponsor.second-sponsor{
-  top: 18%;
-  bottom: 76%;
+  top: 28%;
+  bottom: 66%;
 }
 
 .home-image-right .sponsor-image{
@@ -2118,6 +2122,11 @@ div.sponsor.second-sponsor{
   }
   .flex2{
     order: 1; 
+  }
+
+  .home-image-right .sponsor{
+    width: 100%;
+    left: 0%;
   }
 }
 
