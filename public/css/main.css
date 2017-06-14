@@ -2009,7 +2009,7 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
     text-align: center;
     font-size: 1.9rem;
     top: 13%;
-    bottom: 82%;
+    bottom: 81%;
   }
   img[data-aos^=fade][data-aos^=fade].logo{
     opacity: .5;
@@ -2019,8 +2019,8 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
   }
 
 div.sponsor.first-sponsor{
-  top: 20%;
-  bottom: 74%;
+  top: 20.5%;
+  bottom: 73.5%;
 }
 
 div.sponsor.second-sponsor{
