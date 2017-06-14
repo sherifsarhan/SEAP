@@ -2008,8 +2008,10 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
     top: 13%;
     bottom: 82%;
   }
-
-  .home-image-right .logo img{
+  img[data-aos^=fade][data-aos^=fade].logo{
+    opacity: .5;
+  }
+  .logo{
     opacity: .5;
   }
 
@@ -2147,6 +2149,14 @@ div.sponsor.second-sponsor{
     margin-bottom: -298px;
     top: 74%;
   }
+  .home-image-right .sponsor-image{
+  width: 3.8rem;
+  height: 3.8rem;
+  border-radius: 50%;
+  vertical-align: middle;
+  margin-right: 1rem;
+  margin-left: .2rem;
+}
   span.hero__scroll{
     top: 75%;
     z-index: 10;
