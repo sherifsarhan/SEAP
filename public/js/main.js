@@ -62,7 +62,7 @@
 		$WIN.on('load', function() {	
 
 			// force page scroll position to top at page refresh
-			$('html, body').animate({ scrollTop: 0 }, 'normal');
+			// $('html, body').animate({ scrollTop: 0 }, 'normal');
 
          // will fade out the whole preloader DIV that covers the website.
 	      $("#preloader").delay(500).fadeOut('slow');
