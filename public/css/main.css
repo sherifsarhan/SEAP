@@ -2968,7 +2968,11 @@ footer {
   padding-bottom: 4.2rem;
   font-size: 1.5rem;
   line-height: 2.7rem;
-  color: rgba(255, 255, 255, 0.25);
+  color: rgb(123, 127, 128);
+}
+
+footer p{
+  color: rgb(123, 127, 128);
 }
 
 footer a,
@@ -3011,7 +3015,7 @@ footer ul li {
 
 footer ul a,
 footer ul a:visited {
-  color: rgba(255, 255, 255, 0.25);
+  color: rgb(123, 127, 128);
 }
 
 .footer-logo {
